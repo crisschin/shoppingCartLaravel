@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Jesus Cry <img src="{{ asset('pic/banana.jpg') }}" alt="" width="200">
+                    Holly Shit <img src="{{ asset('pic/banana.jpg') }}" alt="" width="200">
                 </div>
 
                 <div class="links">
