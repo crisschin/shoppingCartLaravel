@@ -17,8 +17,17 @@
             <tr>
                 <th>&nbsp;</th>
                 <th>Name</th>
+                <th>Brand</th>
                 <th>Description</th>
+                <th>CPU</th>
+                <th>CPU detail</th>
+                <th>OS</th>
+                <th>RAM</th>
+                <th>RAM detail</th>
+                <th>GPU</th>
+                <th>GPU detail</th>
                 <th>Price</th>
+                <th>Storage</th>
                 <th>Quantity</th>
                 <th>Category</th>
                 <th>&nbsp;</th>                
@@ -29,7 +38,15 @@
                     <tr>
                         <td><img src="{{ asset('pic/') }}/{{$product->image}}" width="50"></td>
                         <td>{{$product->name}}</td>
-                        <td>{{$product->description}}</td>
+                        <td>{{$product->brand}}</td>
+                        <td>{{$product->CPU}}</td>
+                        <td>{{$product->cpudetail}}</td>
+                        <td>{{$product->OS}}</td>
+                        <td>{{$product->RAM}}</td>
+                        <td>{{$product->ramdetail}}</td>
+                        <td>{{$product->GPU}}</td>
+                        <td>{{$product->gpudetail}}</td>
+                        <td>{{$product->storage}}</td>
                         <td>{{$product->price}}</td>
                         <td>{{$product->quantity}}</td>
                         <td>{{$product->categoryID}}</td>

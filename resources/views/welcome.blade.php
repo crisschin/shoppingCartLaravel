@@ -63,7 +63,7 @@
             }
         </style>
     </head>
-    <body>
+    <body background="pic/bg.jpg" style="height:fit-content;">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -81,18 +81,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Holly Shit <img src="{{ asset('pic/banana.jpg') }}" alt="" width="200">
+                    NSIT Solution <img src="{{ asset('pic/logo.png') }}" alt="" width="200">
                 </div>
 
                 <div class="links">
                     <a href="{{ url('/main') }}">Main Page</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>
         </div>

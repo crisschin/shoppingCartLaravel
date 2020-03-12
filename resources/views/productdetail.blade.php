@@ -8,7 +8,11 @@
                         <form action="{!! URL::to('paypal') !!}" method="post">
                             {{ csrf_field() }}
                             <h5 class="card-title">{{$product->name}}</h5>
-                            <p>{{$product->description}}</p>
+                            <p>{{$product->cpudetail}}</p>
+                            <p>{{$product->ramdetail}}</p>
+                            <p>{{$product->gpudetail}}</p>
+                            <p>{{$product->OS}}</p>
+                            <p>{{$product->storage}}</p>
                             <div style="height: 100px">Quantity <input type="number" id="qty" value="1" min="1" max="10">  Available stock: {{$product->quantity}}
                             </div>
                             <input type="hidden" id="price" value="{{$product->price}}">
