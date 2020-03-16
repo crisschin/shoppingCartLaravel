@@ -160,7 +160,7 @@ class PaymentController extends Controller
             $email='criss_1231@hotmail.com';
 	        Notification::route('mail', $email)->notify(new \App\Notifications\orderPaid($email));
             
-            return Redirect::to('viewlist');
+            return Redirect::to('complete');
 
         }
 
